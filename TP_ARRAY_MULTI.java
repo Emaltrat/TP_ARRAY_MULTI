@@ -12,30 +12,30 @@ public class TP_ARRAY_MULTI {
         boolean salir;
         do{
             System.out.println("Ingrese la opcion:");
-            System.out.println("1)Ejercicio 1 \n"+
+            System.out.println("1)Ejercicio 1 Países.\n"+
                     "2)Ejercicio 2 \n"+
                     "3)Ejercicio 3 \n"+
                     "4)Ejercicio 4 \n"+
-                    "5)Ejercicio 5 \n" +
+                    "5)Ejercicio 5 Máquina expendedora\n" +
                     "0)Salir ");
             opcion = scanner.nextInt();
             scanner.nextLine();
 
           switch (opcion){
               case 1:
-                  ej_1_5.EJ1();
+                  Ej1.ejercicio1(scanner);
                   break;
               case 2:
-                  ej2.EJ2();
+                  Ej2.EJ2();
                   break;
               case 3:
-                  ej3.EJ3();
+                  Ej3.EJ3();
                   break;
               case 4:
-                  ej4.EJ4();
+                  Ej4.EJ4();
                   break;
               case 5:
-                  ej_1_5.EJ5();
+                  Ej5.menuInteractivo();
                   break;
               default :
                   System.out.println("Saliendoo....");
