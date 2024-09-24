@@ -9,7 +9,6 @@ public class TP_ARRAY_MULTI {
     public static void main(String[] args) {
         Scanner scanner = new Scanner (System.in);
         int opcion;
-        boolean salir;
         do{
             System.out.println("Ingrese la opcion:");
             System.out.println("1)Ejercicio 1 Países.\n"+
@@ -22,7 +21,7 @@ public class TP_ARRAY_MULTI {
             scanner.nextLine();
 
           switch (opcion){
-              case 1:
+              /*  case 1:
                   Ej1.ejercicio1(scanner);
                   break;
               case 2:
@@ -34,9 +33,9 @@ public class TP_ARRAY_MULTI {
               case 4:
                   Ej4.EJ4();
                   break;
-              case 5:
+             /*  case 5:
                   Ej5.menuInteractivo();
-                  break;
+                  break;*/
               default :
                   System.out.println("Saliendoo....");
                   break;
