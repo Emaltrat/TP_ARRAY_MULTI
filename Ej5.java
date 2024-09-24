@@ -50,7 +50,6 @@ public class Ej5 {
                     System.out.println("Opción no válida. Inténtalo de nuevo.");
             }
         } while (opcion != 4);
-        scanner.close();
     }
 
     public static void mostrarGolosinas(String[][] golosinas) {
@@ -110,6 +109,6 @@ public class Ej5 {
     public static void apagarMaquina() {
         System.out.println("Apagando máquina...");
         System.out.println("Ventas totales durante la ejecución del programa: " + ventasTotales);
-        System.exit(0);
+        
     }
 }

@@ -1,4 +1,3 @@
-
 package grupo_6.tp_array_multi;
 
 import java.util.Scanner;
