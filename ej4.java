@@ -1,10 +1,13 @@
 
 package grupo_6.tp_array_multi;
 
-public class ej4 {
+import java.util.Scanner;
+
+public class Ej4 {
     public static void EJ4(){
-        System.out.println("Ejercicio4 de la clase ej4");
-        
+        Scanner scanner = new Scanner (System.in);
+        int algo = scanner.nextInt();
+        System.out.println(algo);
     }
     
 }
