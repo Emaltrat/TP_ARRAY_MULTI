@@ -8,18 +8,18 @@ public class Ej5 {
     public static void menuInteractivo() {
         Scanner scanner = new Scanner(System.in);
         String[][] golosinas = {
-                {"KitKat", "32", "10"},
-                {"Chicles", "2", "50"},
-                {"Caramelos de Menta", "2", "50"},
-                {"Huevo Kinder", "25", "10"},
-                {"Chetoos", "30", "10"},
-                {"Twix", "26", "10"},
-                {"M&M'S", "35", "10"},
-                {"Papas Lays", "40", "20"},
-                {"Milkybar", "30", "10"},
-                {"Alfajor Tofi", "20", "15"},
-                {"Lata Coca", "50", "20"},
-                {"Chitos", "45", "10"}
+                {"KitKat            ","32","10"},
+                {"Chicles           ","2 ","50"},
+                {"Caramelos de Menta","2 ","50"},
+                {"Huevo Kinder      ","25","10"},
+                {"Chetoos           ","30","10"},
+                {"Twix              ","26","10"},
+                {"M&M'S             ","35","10"},
+                {"Papas Lays        ","40","20"},
+                {"Milkybar          ","30","10"},
+                {"Alfajor Tofi      ","20","15"},
+                {"Lata Coca         ","50","20"},
+                {"Chitos            ","45","10"}
         };
 
         int opcion;
@@ -53,9 +53,9 @@ public class Ej5 {
     }
 
     public static void mostrarGolosinas(String[][] golosinas) {
-        System.out.println("\nGolosina\tPrecio\tCantidad");
+        System.out.println("\nGolosina              Precio  Cantidad");
         for (String[] golosina : golosinas) {
-            System.out.println(golosina[0] + "\t" + golosina[1] + "\t" + golosina[2]);
+            System.out.println(golosina[0] + "\t|" + golosina[1] + "|\t|" + golosina[2]+"|");
         }
     }
 

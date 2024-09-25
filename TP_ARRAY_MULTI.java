@@ -21,7 +21,7 @@ public class TP_ARRAY_MULTI {
             scanner.nextLine();
 
           switch (opcion){
-              /*  case 1:
+                case 1:
                   Ej1.ejercicio1(scanner);
                   break;
               case 2:
@@ -31,11 +31,11 @@ public class TP_ARRAY_MULTI {
                   Ej3.EJ3();
                   break;
               case 4:
-                  Ej4.EJ4();
+                  Ej4.Ejercicio4(scanner);
                   break;
-             /*  case 5:
+               case 5:
                   Ej5.menuInteractivo();
-                  break;*/
+                  break;
               default :
                   System.out.println("Saliendoo....");
                   break;
