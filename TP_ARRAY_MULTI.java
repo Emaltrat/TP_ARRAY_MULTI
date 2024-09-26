@@ -28,7 +28,7 @@ public class TP_ARRAY_MULTI {
                   Ej2.EJ2();
                   break;
               case 3:
-                  Ej3.EJ3();
+                  Ej3.EJ3(scanner);
                   break;
               case 4:
                   Ej4.Ejercicio4(scanner);
