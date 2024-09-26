@@ -22,13 +22,13 @@ public class TP_ARRAY_MULTI {
 
             switch (opcion){
                 case 1:
-                    Ej1.ejercicio1(scanner);
-                    break;
-                case 2:
-                    Ej2.MatricesYSuma();
-                    break;
-                case 3:
-                  Ej3.EJ3();
+                  Ej1.ejercicio1(scanner);
+                  break;
+              case 2:
+                  Ej2.EJ2();
+                  break;
+              case 3:
+                  Ej3.EJ3(scanner);
                   break;
               case 4:
                   Ej4.Ejercicio4(scanner);
